@@ -7,7 +7,10 @@
 
 body{
     background-color: #f1f1f1;
-    margin: 0 auto;
+}
+
+.wrapper, .header-wrapper{
+    text-align: center;
 }
 
 input{
@@ -17,15 +20,16 @@ input{
     background-color:#f1f1f1;
     border: none;
     margin-top: 15px;
-    margin-left: 80px;
+    margin-bottom: 15px;
+    width: 700px;
 }
 
-button{
-    border: none;
+.btn__icon{
+    width: 55px;
 }
 
 .btn{
-    width: 55px;
+    border: none;
 }
 
 .circle{
@@ -33,6 +37,14 @@ button{
     width: 30px;
     border: none;
     border-radius: 50%;    
+    vertical-align: middle;
+}
+
+.square{
+    height: 30px;
+    width: 30px;
+    border: none;   
+    vertical-align: middle;  
 }
 
 h3{
@@ -44,13 +56,8 @@ h3{
 .container1{
     margin: 0 auto;
     display: inline-block;
-    width: 26%;
-    padding-top: 45px;
-    margin-left: 80px;
-}
-
-ul{
-    font-size: 0;
+    width: 20%;
+    text-align: left;
 }
 
 li{
@@ -60,6 +67,7 @@ li{
     border: 2px solid #f1f1f1;
     font-size: 14px;
     padding: 10px 0 5px 5px;
+    margin-right: 15px;
 }
 
 li:hover{
